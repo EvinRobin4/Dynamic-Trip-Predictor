@@ -1,49 +1,54 @@
-🚲 Dynamic Trip Predictor
-📌 Overview
+Dynamic Trip Predictor
+Overview
 
 This project predicts bike trip durations using the Divvy bike-sharing dataset. Divvy is a bike-sharing company based in Chicago, and the dataset used here is the official open-source trip data published on their website.
 
-I collected four quarters of trip data, merged them into a single dataset, and then performed:
+I collected four quarters of trip data and merged them into a single dataset. The following steps were performed:
 
-Exploratory Data Analysis (EDA) to identify patterns and trends
+Exploratory Data Analysis (EDA) to identify patterns and trends.
 
-Data cleaning to handle missing and inconsistent values
+Data cleaning to handle missing and inconsistent values.
 
-Outlier treatment using the IQR (Interquartile Range) method
+Outlier treatment using the Interquartile Range (IQR) method.
 
-Visualization to uncover insights about trip durations and user behavior
+Data visualization to uncover insights about trip durations and user behavior.
 
-Linear Regression modeling, which achieved an accuracy of around 70% in predicting trip duration.
+Linear Regression modeling to predict trip duration, achieving an accuracy of approximately 70%.
 
-📊 Features
+Features
 
-Comprehensive EDA with trend visualizations
+Comprehensive Exploratory Data Analysis with trend visualizations.
 
-Data Cleaning & Preprocessing
+Data Cleaning and Preprocessing.
 
-Outlier Detection using IQR
+Outlier Detection using the IQR method.
 
-Linear Regression Model for prediction
+Linear Regression model for trip duration prediction.
 
-🛠️ Tech Stack
+Tech Stack
 
-Python (Pandas, NumPy for preprocessing)
+Python (NumPy, Pandas for preprocessing)
 
-Matplotlib for visualizations
+Matplotlib and Seaborn for visualizations
 
 Scikit-learn for regression modeling
 
 Jupyter Notebook for implementation
 
-
-✅ Results
+Results
 
 Model Accuracy: ~70%
+
+Maximum number of trips occurred in August.
+
+Minimum number of trips occurred in February.
+
+Users aged 25–30 years made the most trips.
 
 The analysis and visualizations provide insights into:
 
 Peak trip times and durations
 
-Seasonal/quarterly usage trends
+Seasonal and quarterly usage trends
 
-How factors like user type and time of day affect trip length# Dynamic-Trip-Predictor
+How factors like user type and time of day affect trip duration
